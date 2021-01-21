@@ -14,8 +14,7 @@ client.on('message', (message) => {
     
     //!ban 
     //@cedricjake2006
-    const commandAndArguements = message.content.split(' ')
-
+    const messageArray = message.content.split(' ')
 })
 
 client.login(token)
