@@ -1,22 +1,36 @@
 {
   "name": "acornhub.discordbot",
   "version": "1.0.0",
-  "description": "This is our open sourced discord bot under General Public Use Licence designed for you to use as a template for your own discord bot (",
+  "description": "AcornHub's discord bot",
   "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/CeddyGaming/acornhub.discordbot.git"
+=======
+    "url": "git+https://github.com/AcornProductions/acornhub.discordbot.git"
+>>>>>>> 33d44466c673349836fd703cf7a82146ede33b2c
   },
   "author": "Cedric Tabban",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/CeddyGaming/acornhub.discordbot/issues"
   },
   "homepage": "https://github.com/CeddyGaming/acornhub.discordbot#readme",
   "dependencies": {
     "discord.js": "^12.5.1"
   }
+=======
+    "url": "https://github.com/AcornProductions/acornhub.discordbot/issues"
+  },
+  "homepage": "https://github.com/AcornProductions/acornhub.discordbot#readme"
+>>>>>>> 33d44466c673349836fd703cf7a82146ede33b2c
 }
