@@ -18,9 +18,13 @@ client.on('message', (message) => {
     
     //!ban 
     //@cedricjake2006
+<<<<<<< HEAD
     const args = message.content.slice(prefix.length).split(/ +/)
     const command = args.shift().toLowerCase()
 
+=======
+    const messageArray = message.content.split(' ')
+>>>>>>> 7ccfbf5afbe82a58e83c7e10ec46b464633ea07f
 })
 
 client.login(token)
